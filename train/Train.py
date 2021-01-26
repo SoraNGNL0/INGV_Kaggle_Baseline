@@ -13,7 +13,7 @@ from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error as mse
 from sklearn import linear_model
 from sklearn.linear_model import BayesianRidge
-from sklearn.ensemble import RandomForestRegressor,AdaBoostRegressor
+from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor
 from sklearn.tree import DecisionTreeRegressor
 import yaml
 # 仅使用二维特征+AdaBoost,并且不用五折交叉验证了试试
